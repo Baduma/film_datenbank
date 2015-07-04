@@ -1,0 +1,335 @@
+@charset "utf-8";
+/**
+* Globale Einstellungen und Bugfixes
+*
+* @section Browser-Reset
+*/
+ 
+
+ /* Zurücksetzen der Innen- und Außenabstände */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+* -----------------Schriftgröße kontrollieren
+*/
+body, td, th { font: normal 75%/167% Georgia, Palatino, "Times New Roman", serif; }
+ 
+td, th { font-size: 100%; }
+
+/*----------------------- Farben und Hintergründe setzen */
+html, body {
+  color: #3b2b20;
+  background-color:#E3E3ED;
+}
+
+
+/**
+* -----------------Regeln für allgemeine Elemente
+*
+* @section Überschriften
+*/
+h1 {
+ /* color: #ffffff;
+  background-color: ;
+  font-size: 3em;
+  line-height: 1.1;
+  margin: .8em 0;*/
+  
+  
+	color: white;
+    font-size:50px;
+	float:center;
+	margin: 25px 100px 25px 100px;
+}
+
+h2 {
+  color: silver;
+  background-color: ;
+  font-size: 2em;
+  line-height: 1.1;
+  margin: .8em 0;
+}
+h3 {
+  color: #3C6331;
+  background-color: ;
+  font-size: 1.5em;
+  line-height: 1.1;
+  margin: .8em 0;
+  text-transform: uppercase;
+  padding: 1px 1px 1px 230px;
+}
+
+
+/*----------section Head------moi
+*/
+
+#title a
+{
+	text-decoration:none;
+	color:#fff;
+}
+
+div#title 
+{
+   
+  position: relative;
+  background-color:#7575A3;
+  padding-top: 30px;
+  padding-right:100px;
+  padding-bottom:30px;
+  padding-left:100px;
+  
+  
+}
+
+
+hr{
+	color:000000;
+	font-size:0px;
+	font-weight: 0px;
+	margin-bottom:6px;
+}
+
+/*----Section Anker-------------Moi*/
+#menu a
+{
+  color: #fff;
+  background-color: #002274;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8.5px 15px 10px 15px;
+  text-decoration:none;
+  border: 1px solid #002274;
+ 
+ 
+}
+div#menu{
+
+margin: 0 0px 0 0px;
+}
+#menu a:hover
+{
+  color: #002274;
+  background-color: #fff;
+}
+#content h2
+{
+	color: #c5c;
+}
+
+#content img {
+  float: left;
+  margin: .5em .5em .5em .5em;
+  margin-left: 20px;
+  height: 268px;
+}
+
+#content p {
+
+	margin-top: 350px;
+	margin-bottom: 100px;
+	/*margin-left:
+  float: left;
+  margin: .5em .5em .5em 0; */
+  color:#000000;
+}
+
+#content a {
+  
+  font-size:15px;
+  color:;
+}
+
+div#content {
+  margin: 0 0 0 200px;
+  padding: 0 12px 0 30px;
+}
+#content img {
+
+margin: 0 0 0 1px;
+width:600px;
+height: 300px;
+}
+
+
+/**
+*------------------------------------------------------------------ @section Footer
+*/
+div#footer {
+
+  border:5;
+  color: #ffffff;
+  background-color: #7575A3;
+  padding: 10px 0 100px 0;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: .9em;
+  clear: both;
+  margin: 1px 0 0 0;
+  
+}
+#footer p {
+float:center;
+  width: 932px;
+  height: 20px;
+  margin: 5px 0 10px 0;
+  padding: 1px 1px 1px 230px;
+}
+
+
+/*-----------------------------Impressum------------*/
+
+
+div#impressum {
+
+  margin: 200px 760px  100px 210px;
+  background-color: #ffffff;
+  padding: 10px 0 10px 0;
+}
+
+/*---------------Kontakt.----------------*/
+
+div#form {
+
+  margin: 100px 330px  200px 230px;
+  background-color: ;
+  padding: 10px 0 10px 0;
+  
+}
+
+/*----------------------login(input formatieren)-----------*/
+/*
+div#login {
+
+  margin: 150px 330px  200px 230px;
+  background-color: ;
+  padding: 15px 0 1px 0;
+}
+*/
+
+#login{
+	border:5px solid silver;
+	background-color: #ffffff;
+	margin: 0 200px 0 200px;
+	padding: 100px 0px 100px 100px;
+
+}
+#update{
+
+	border:5px solid silver;
+	background-color: #ffffff;
+	margin: 0 200px 0 200px;
+	padding: 0 0px 0 100px;
+}
+
+#read{
+
+	border:5px solid silver;
+	background-color: #ffffff;
+	margin: 0 200px 0 200px;
+	padding: 0 0px 0 100px;
+}
+.name{
+ font-size:20px;
+ }
+ 
+#read button{
+
+	color:white;
+	background-color:blue;
+}
+
+#insert{
+	border:5px solid silver;
+	background-color: #ffffff;
+	margin: 0 200px 0 200px;
+	padding: 0 0px 0 100px;
+
+}
+
+#cancel{
+	color: white;
+	width: 100px;
+	background-color: red;
+}
+
+#Abschicken{
+	color: white;
+	width: 100px;
+	background-color: blue;
+}
+
+/*----------------suche(Formular formatieren)--------*/
+
+#form{
+
+border:5px solid silver;
+margin: 200px 760px  100px 210px;
+  background-color: #ffffff;
+  padding: 10px 0 10px 0;
+
+}
+#login h2{
+
+	color:silver;
+	padding-left:130px;
+	padding-bottom
+}
+#myform {
+  
+  margin: 180px 330px  180px 230px;
+  background-color: ;
+  padding: 10px 0 10px 0;
+  height: 210px;
+  color: #c5c;
+}
+
+#regie{
+  margin: 50px 0 50px 0;
+  
+}
+
+/*----------------Filmliste--------*/
+#info_suche {
+
+  margin: 0 320px 0 230px;
+  background-color:#fff;
+}
+
+/*---------Filmbeschreibung----*/
+#info_film {
+  margin: 3px 335px  80px 230px;
+  background-color:#fff ;
+  padding: 10px 0 10px 0;
+}
+
+/*-------------------login frei------*/
+#login_frei{
+  margin: 100px 755px  100px 230px;
+  background-color:#fff ;
+  padding: 150px 10px 150px 170px;
+
+}
+#login_frei p{
+  color:#000;
+
+}
+
+/*------------gallerie--------------------*/
+#gallerie{
+  
+  
+  margin-top: 110px;
+  margin-bottom: 100px;
+  margin-left: 250px;
+  }
+#gallerie h2
+{
+	color: #c5c;
+}
+
+
+
+
