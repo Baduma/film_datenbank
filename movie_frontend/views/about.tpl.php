@@ -2,6 +2,13 @@
 require_once('../views/title.tpl.php');
 ?>
 
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	
+	<body>
 
 <div id="doc">
 <p><h1> <strong>Dokumentation</strong></h1></p>
@@ -36,6 +43,8 @@ Zur Optimierung des Systems, könnte man der Design der gesamgte Anwendung
 verbessern.<br> Weiterhin könnte man das System erweitern bzw. könnte man Modell
 View Controller der Applikation vervollständigen.
 </div>
+</body>
+</html>
 
 <?php
 require_once('../views/footer.tpl.php');

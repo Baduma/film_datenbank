@@ -1,8 +1,16 @@
-<?php
-require_once('../views/title.tpl.php');
-?>
 
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Suche</title>
+	</head>
 	
+	<body>
+
+		<?php
+		require_once('../views/title.tpl.php');
+		?>
+
 
 	<div id="form">
 		<form id="myform" action="../controller/controller_frontend.php" method="get">
@@ -25,8 +33,7 @@ require_once('../views/title.tpl.php');
 						<option>Quentin Tarantino</option>
 						<option>Ben Stiller</option>
 						</select>
-					
-						
+											
 						<input type="submit" name="Abschicken" id="Abschicken" value="suchen" /></td>
 			
 					</tr>
@@ -34,9 +41,12 @@ require_once('../views/title.tpl.php');
 			</fieldset>
 		</form>
 		</div>
-<?php
-	require_once('../views/footer.tpl.php');
-	?>
+	</body>
+</html>
+
+		<?php
+			require_once('../views/footer.tpl.php');
+		?>
 	
 	
 

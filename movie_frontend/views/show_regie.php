@@ -1,8 +1,19 @@
-<div id="film_info">
-<?php
-//require_once('../views/title.tpl.php');
-echo "<br>";
-foreach($data as $datakey => $dataValue){?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	
+	<body>
+
+	<div id="film_info">
+	
+		<?php
+
+		//require_once('../views/title.tpl.php');
+		echo "<br>";
+		foreach($data as $datakey => $dataValue){?>
+		
 		<img src="../views/image/<?php echo $dataValue['bild'];?>" width="200" height="150" />
 		
 		 <b>Titel:</b> <?php echo $dataValue['titel']; ?> <br><br>
@@ -13,10 +24,11 @@ foreach($data as $datakey => $dataValue){?>
 		 <b>Land:</b> <?php echo $dataValue['land']; ?> <br><br>
 		 <b>Jahr:</b> <?php echo $dataValue['jahr']; ?> <br><br>
 		 <b>Laufzeit:</b> <?php echo substr($dataValue['laufzeit'],0,3); ?> Minuten<br><br></h3>
-<?php
-}
-?>
-</div>	
+		 
+			<?php
+				}
+			?>
+	</div>	
 </body>
 </html>	 
 		 
