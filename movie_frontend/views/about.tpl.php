@@ -4,11 +4,8 @@ require_once('../views/title.tpl.php');
 
 <!DOCTYPE html>
 <html>
-	<head>
-		
-	</head>
-	
-	<body>
+	<head><title>About</title></head>
+<body>
 
 <div id="doc">
 <p><h1> <strong>Dokumentation</strong></h1></p>
